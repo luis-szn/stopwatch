@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+
+  :root{
+    font-size: 62.5%;
+
+  }
+
+  .container{
+    font-family: 'Poppins', sans-serif;
+    width: 100vw;
+    height: 100vh;
+    background: rgb(161, 96, 247);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .title{
+    font-size: 2.2rem;
+    color: white;
+    padding-bottom: 4.8rem;
+  }
+
+  .watch{
+      font-size: 7.2rem;
+      color: white;
+  }
+
+  .buttons{
+      font-family: 'Poppins', sans-serif;
+      font-size: 2.4rem;
+      border: none;
+      background: violet;
+      color: white;
+      width: 8rem;
+      height: 4rem;
+      margin: 0 .5rem ;
+      border-radius: .5rem;
+      transition: all 0.2s ease ;
+  }
+
+  .buttons:hover{
+      opacity: .8;
+  }
